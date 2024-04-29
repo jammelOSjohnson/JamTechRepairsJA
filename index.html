@@ -7,31 +7,51 @@
     <link rel="stylesheet" href="Index.css" />
     <title>JamTechRepairsJA</title>
     <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        box-sizing: border-box;
+        font-size: 1.6rem;
+        background-color: black;
+      }
+
       .box {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
       }
 
       .box img {
         margin-top: 5%;
       }
 
-      .box div {
-        width: 100%;
-      }
-
-      .box2 h1 {
+      .box2 {
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #fff;
-        font-weight: 900;
-        font-size: 3.5rem;
       }
 
-      body {
-        background-color: black;
+      h1 {
+        text-align: center;
+        color: #fff;
+        font-weight: 900;
+        font-size: 30px;
+      }
+
+      .main-text {
+        text-align: center !important;
+        width: 100%;
       }
     </style>
   </head>
@@ -39,10 +59,10 @@
     <div class="box">
       <img src="Images/JamTech Repairs Logo.png" />
     </div>
-    <div class="box2">
+    <br />
+    <div class="main-text">
       <h1>Coming Soon!!!</h1>
     </div>
-
     <script src="Index.js"></script>
   </body>
 </html>
